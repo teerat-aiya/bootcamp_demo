@@ -4,7 +4,8 @@
   "sideEffects": false,
   "type": "module",
   "scripts": {
-    "build": "remix vite:build",
+    "build":  "remix build && cp public/index.html build/index.html",
+    "deploy": "npm run build && firebase deploy --only hosting",
     "dev": "bun run dev:ssl & remix vite:dev",
     "dev:ssl": "local-ssl-proxy --source 6001 --target 6000",
     "ssl": "local-ssl-proxy --source 6001 --target 6000",
@@ -20,6 +21,7 @@
     "@tanstack/react-query": "^5.80.6",
     "@types/redux-persist": "^4.0.0",
     "isbot": "^4",
+    "lucide-react": "^0.513.0",
     "react": "^18.2.0",
     "react-datepicker": "^7.6.0",
     "react-dom": "^18.2.0",

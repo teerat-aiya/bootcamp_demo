@@ -11,13 +11,11 @@ import "./tailwind.css";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { LineLiffProvider } from "./contexts/LineLiffContext";
 import { Provider } from "react-redux";
-import { PersistGate } from "redux-persist/integration/react";
+import { PersistGate } from 'redux-persist/lib/integration/react'
 import { store, persistor } from "./store";
 import PrelineScript from "./PrelineScript";
-import prelineCss from "@repo/preline/preline.css?url";
 
 export const links: LinksFunction = () => [
-  { rel: "stylesheet", href: prelineCss },
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
   {
     rel: "preconnect",
@@ -80,5 +78,5 @@ export default function App() {
 }
 
 export function HydrateFallback() {
-  return <p>Loading...</p>;
+  return <p></p>;
 }

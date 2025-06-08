@@ -4,4 +4,1312 @@
   [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m6000[22m/[39m
 [2m  [32m➜[39m  [1mNetwork[22m[2m: use [22m[1m--host[22m[2m to expose[22m
 [2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
-[0m[31merror[0m[2m:[0m script [1m"dev"[0m exited with code 130[0m
+(node:11306) [DEP0060] DeprecationWarning: The `util._extend` API is deprecated. Please use Object.assign() instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Error: No route matches URL "/.well-known/appspecific/com.chrome.devtools.json"
+    at getInternalRouterError [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/router/router.ts:5550:5[90m)[39m
+    at Object.query [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/router/router.ts:3562:19[90m)[39m
+    at handleDocumentRequest [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/server-runtime/dist/server.js:313:35[90m)[39m
+    at requestHandler [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/server-runtime/dist/server.js:170:24[90m)[39m
+[90m    at processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+    at nodeHandler [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/dev/dist/vite/plugin.js:859:27[90m)[39m
+    at [90m/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/dev/dist/vite/plugin.js:862:15
+No routes matched location "/.well-known/appspecific/com.chrome.devtools.json" 
+ErrorResponseImpl {
+  status: [33m404[39m,
+  statusText: [32m'Not Found'[39m,
+  internal: [33mtrue[39m,
+  data: [32m'Error: No route matches URL "/.well-known/appspecific/com.chrome.devtools.json"'[39m,
+  error: Error: No route matches URL "/.well-known/appspecific/com.chrome.devtools.json"
+      at getInternalRouterError [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/router/router.ts:5550:5[90m)[39m
+      at Object.query [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/router/router.ts:3562:19[90m)[39m
+      at handleDocumentRequest [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/server-runtime/dist/server.js:313:35[90m)[39m
+      at requestHandler [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/server-runtime/dist/server.js:170:24[90m)[39m
+  [90m    at processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+      at nodeHandler [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/dev/dist/vite/plugin.js:859:27[90m)[39m
+      at [90m/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/dev/dist/vite/plugin.js:862:15
+}
+[33m[vite:css][postcss] Replace color-adjust to print-color-adjust. The color-adjust shorthand is currently deprecated.
+10973|    .line-highlight {
+10974|      -webkit-print-color-adjust: exact;
+10975|      color-adjust: exact;
+   |      ^^^^^^^^^^^^^^^^^^^^
+10976|    }
+10977|  }[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:28:27 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/app/routes/_landing._index/components/DatePicker.tsx, /app/tailwind.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:28:27 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/app/routes/_landing._index/components/MainContent.tsx, /app/tailwind.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:28:27 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m/Users/teexiw/Work/ducky club/ducky-club/apps/liff/app/routes/_landing._index/components/StyledButton.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:28:27 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m/Users/teexiw/Work/ducky club/ducky-club/apps/liff/app/routes/_landing._index/route.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:28:27 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/app/routes/_landing._index/components/DatePicker.tsx, /app/tailwind.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:28:27 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/app/routes/_landing._index/components/MainContent.tsx, /app/tailwind.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:28:27 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m/Users/teexiw/Work/ducky club/ducky-club/apps/liff/app/routes/_landing._index/components/StyledButton.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:28:27 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m/Users/teexiw/Work/ducky club/ducky-club/apps/liff/app/routes/_landing._index/route.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:28:27 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/app/routes/_landing._index/components/DatePicker.tsx, /app/tailwind.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:28:27 PM[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2mapp/routes/_landing._index/components/DatePicker.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:28:27 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/app/routes/_landing._index/components/MainContent.tsx, /app/tailwind.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:28:27 PM[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2mapp/routes/_landing._index/components/MainContent.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:28:27 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mapp/routes/_landing._index/components/StyledButton.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:28:27 PM[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2mapp/routes/_landing._index/components/StyledButton.tsx[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:28:27 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mapp/routes/_landing._index/route.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:28:27 PM[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2mapp/routes/_landing._index/route.tsx[22m [33m(x2)[39m
+Error: No route matches URL "/app/routes/_landing._index/components/DatePicker.tsx"
+    at getInternalRouterError [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/router/router.ts:5550:5[90m)[39m
+    at Object.query [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/router/router.ts:3562:19[90m)[39m
+    at handleDocumentRequest [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/server-runtime/dist/server.js:313:35[90m)[39m
+    at requestHandler [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/server-runtime/dist/server.js:170:24[90m)[39m
+    at nodeHandler [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/dev/dist/vite/plugin.js:859:27[90m)[39m
+    at [90m/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/dev/dist/vite/plugin.js:862:15
+No routes matched location "/app/routes/_landing._index/components/DatePicker.tsx?t=1749364107542" 
+ErrorResponseImpl {
+  status: [33m404[39m,
+  statusText: [32m'Not Found'[39m,
+  internal: [33mtrue[39m,
+  data: [32m'Error: No route matches URL "/app/routes/_landing._index/components/DatePicker.tsx"'[39m,
+  error: Error: No route matches URL "/app/routes/_landing._index/components/DatePicker.tsx"
+      at getInternalRouterError [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/router/router.ts:5550:5[90m)[39m
+      at Object.query [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/router/router.ts:3562:19[90m)[39m
+      at handleDocumentRequest [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/server-runtime/dist/server.js:313:35[90m)[39m
+      at requestHandler [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/server-runtime/dist/server.js:170:24[90m)[39m
+      at nodeHandler [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/dev/dist/vite/plugin.js:859:27[90m)[39m
+      at [90m/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/dev/dist/vite/plugin.js:862:15
+}
+Error: No route matches URL "/app/routes/_landing._index/components/MainContent.tsx"
+    at getInternalRouterError [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/router/router.ts:5550:5[90m)[39m
+    at Object.query [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/router/router.ts:3562:19[90m)[39m
+    at handleDocumentRequest [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/server-runtime/dist/server.js:313:35[90m)[39m
+    at requestHandler [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/server-runtime/dist/server.js:170:24[90m)[39m
+    at nodeHandler [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/dev/dist/vite/plugin.js:859:27[90m)[39m
+    at [90m/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/dev/dist/vite/plugin.js:862:15
+No routes matched location "/app/routes/_landing._index/components/MainContent.tsx?t=1749364107717" 
+ErrorResponseImpl {
+  status: [33m404[39m,
+  statusText: [32m'Not Found'[39m,
+  internal: [33mtrue[39m,
+  data: [32m'Error: No route matches URL "/app/routes/_landing._index/components/MainContent.tsx"'[39m,
+  error: Error: No route matches URL "/app/routes/_landing._index/components/MainContent.tsx"
+      at getInternalRouterError [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/router/router.ts:5550:5[90m)[39m
+      at Object.query [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/router/router.ts:3562:19[90m)[39m
+      at handleDocumentRequest [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/server-runtime/dist/server.js:313:35[90m)[39m
+      at requestHandler [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/server-runtime/dist/server.js:170:24[90m)[39m
+      at nodeHandler [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/dev/dist/vite/plugin.js:859:27[90m)[39m
+      at [90m/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/dev/dist/vite/plugin.js:862:15
+}
+Error: No route matches URL "/app/routes/_landing._index/components/DatePicker.tsx"
+    at getInternalRouterError [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/router/router.ts:5550:5[90m)[39m
+    at Object.query [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/router/router.ts:3562:19[90m)[39m
+    at handleDocumentRequest [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/server-runtime/dist/server.js:313:35[90m)[39m
+    at requestHandler [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/server-runtime/dist/server.js:170:24[90m)[39m
+    at nodeHandler [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/dev/dist/vite/plugin.js:859:27[90m)[39m
+    at [90m/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/dev/dist/vite/plugin.js:862:15
+No routes matched location "/app/routes/_landing._index/components/DatePicker.tsx?t=1749364107722" 
+ErrorResponseImpl {
+  status: [33m404[39m,
+  statusText: [32m'Not Found'[39m,
+  internal: [33mtrue[39m,
+  data: [32m'Error: No route matches URL "/app/routes/_landing._index/components/DatePicker.tsx"'[39m,
+  error: Error: No route matches URL "/app/routes/_landing._index/components/DatePicker.tsx"
+      at getInternalRouterError [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/router/router.ts:5550:5[90m)[39m
+      at Object.query [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/router/router.ts:3562:19[90m)[39m
+      at handleDocumentRequest [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/server-runtime/dist/server.js:313:35[90m)[39m
+      at requestHandler [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/server-runtime/dist/server.js:170:24[90m)[39m
+      at nodeHandler [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/dev/dist/vite/plugin.js:859:27[90m)[39m
+      at [90m/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/dev/dist/vite/plugin.js:862:15
+}
+Error: No route matches URL "/app/routes/_landing._index/components/MainContent.tsx"
+    at getInternalRouterError [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/router/router.ts:5550:5[90m)[39m
+    at Object.query [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/router/router.ts:3562:19[90m)[39m
+    at handleDocumentRequest [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/server-runtime/dist/server.js:313:35[90m)[39m
+    at requestHandler [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/server-runtime/dist/server.js:170:24[90m)[39m
+    at nodeHandler [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/dev/dist/vite/plugin.js:859:27[90m)[39m
+    at [90m/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/dev/dist/vite/plugin.js:862:15
+No routes matched location "/app/routes/_landing._index/components/MainContent.tsx?t=1749364107722" 
+ErrorResponseImpl {
+  status: [33m404[39m,
+  statusText: [32m'Not Found'[39m,
+  internal: [33mtrue[39m,
+  data: [32m'Error: No route matches URL "/app/routes/_landing._index/components/MainContent.tsx"'[39m,
+  error: Error: No route matches URL "/app/routes/_landing._index/components/MainContent.tsx"
+      at getInternalRouterError [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/router/router.ts:5550:5[90m)[39m
+      at Object.query [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/router/router.ts:3562:19[90m)[39m
+      at handleDocumentRequest [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/server-runtime/dist/server.js:313:35[90m)[39m
+      at requestHandler [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/server-runtime/dist/server.js:170:24[90m)[39m
+      at nodeHandler [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/dev/dist/vite/plugin.js:859:27[90m)[39m
+      at [90m/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/dev/dist/vite/plugin.js:862:15
+}
+Error: No route matches URL "/app/routes/_landing._index/components/DatePicker.tsx"
+    at getInternalRouterError [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/router/router.ts:5550:5[90m)[39m
+    at Object.query [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/router/router.ts:3562:19[90m)[39m
+    at handleDocumentRequest [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/server-runtime/dist/server.js:313:35[90m)[39m
+    at requestHandler [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/server-runtime/dist/server.js:170:24[90m)[39m
+    at nodeHandler [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/dev/dist/vite/plugin.js:859:27[90m)[39m
+    at [90m/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/dev/dist/vite/plugin.js:862:15
+No routes matched location "/app/routes/_landing._index/components/DatePicker.tsx?t=1749364107536" 
+ErrorResponseImpl {
+  status: [33m404[39m,
+  statusText: [32m'Not Found'[39m,
+  internal: [33mtrue[39m,
+  data: [32m'Error: No route matches URL "/app/routes/_landing._index/components/DatePicker.tsx"'[39m,
+  error: Error: No route matches URL "/app/routes/_landing._index/components/DatePicker.tsx"
+      at getInternalRouterError [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/router/router.ts:5550:5[90m)[39m
+      at Object.query [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/router/router.ts:3562:19[90m)[39m
+      at handleDocumentRequest [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/server-runtime/dist/server.js:313:35[90m)[39m
+      at requestHandler [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/server-runtime/dist/server.js:170:24[90m)[39m
+      at nodeHandler [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/dev/dist/vite/plugin.js:859:27[90m)[39m
+      at [90m/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/dev/dist/vite/plugin.js:862:15
+}
+Error: No route matches URL "/.well-known/appspecific/com.chrome.devtools.json"
+    at getInternalRouterError [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/router/router.ts:5550:5[90m)[39m
+    at Object.query [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/router/router.ts:3562:19[90m)[39m
+    at handleDocumentRequest [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/server-runtime/dist/server.js:313:35[90m)[39m
+    at requestHandler [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/server-runtime/dist/server.js:170:24[90m)[39m
+[90m    at processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+    at nodeHandler [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/dev/dist/vite/plugin.js:859:27[90m)[39m
+    at [90m/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/dev/dist/vite/plugin.js:862:15
+No routes matched location "/.well-known/appspecific/com.chrome.devtools.json" 
+ErrorResponseImpl {
+  status: [33m404[39m,
+  statusText: [32m'Not Found'[39m,
+  internal: [33mtrue[39m,
+  data: [32m'Error: No route matches URL "/.well-known/appspecific/com.chrome.devtools.json"'[39m,
+  error: Error: No route matches URL "/.well-known/appspecific/com.chrome.devtools.json"
+      at getInternalRouterError [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/router/router.ts:5550:5[90m)[39m
+      at Object.query [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/router/router.ts:3562:19[90m)[39m
+      at handleDocumentRequest [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/server-runtime/dist/server.js:313:35[90m)[39m
+      at requestHandler [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/server-runtime/dist/server.js:170:24[90m)[39m
+  [90m    at processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+      at nodeHandler [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/dev/dist/vite/plugin.js:859:27[90m)[39m
+      at [90m/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/dev/dist/vite/plugin.js:862:15
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:28:40 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m/Users/teexiw/Work/ducky club/ducky-club/apps/liff/app/routes/_landing._index/route.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:28:40 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m/Users/teexiw/Work/ducky club/ducky-club/apps/liff/app/routes/_landing._index/route.tsx[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:28:40 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mapp/routes/_landing._index/route.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:28:40 PM[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2mapp/routes/_landing._index/route.tsx[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:28:40 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/app/routes/_landing._index/components/DatePicker.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:28:40 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/app/routes/_landing._index/components/MainContent.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:28:40 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/app/routes/_landing._index/components/DatePicker.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:28:40 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m/Users/teexiw/Work/ducky club/ducky-club/apps/liff/app/routes/_landing._index/components/StyledButton.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:28:40 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/app/routes/_landing._index/components/MainContent.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:28:40 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/app/routes/_landing._index/components/DatePicker.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:28:40 PM[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2mapp/routes/_landing._index/components/DatePicker.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:28:40 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m/Users/teexiw/Work/ducky club/ducky-club/apps/liff/app/routes/_landing._index/components/StyledButton.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:28:40 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/app/routes/_landing._index/components/MainContent.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:28:40 PM[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2mapp/routes/_landing._index/components/MainContent.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:28:40 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mapp/routes/_landing._index/components/StyledButton.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:28:40 PM[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2mapp/routes/_landing._index/components/StyledButton.tsx[22m [33m(x2)[39m
+Error: No route matches URL "/.well-known/appspecific/com.chrome.devtools.json"
+    at getInternalRouterError [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/router/router.ts:5550:5[90m)[39m
+    at Object.query [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/router/router.ts:3562:19[90m)[39m
+    at handleDocumentRequest [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/server-runtime/dist/server.js:313:35[90m)[39m
+    at requestHandler [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/server-runtime/dist/server.js:170:24[90m)[39m
+[90m    at processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+    at nodeHandler [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/dev/dist/vite/plugin.js:859:27[90m)[39m
+    at [90m/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/dev/dist/vite/plugin.js:862:15
+No routes matched location "/.well-known/appspecific/com.chrome.devtools.json" 
+ErrorResponseImpl {
+  status: [33m404[39m,
+  statusText: [32m'Not Found'[39m,
+  internal: [33mtrue[39m,
+  data: [32m'Error: No route matches URL "/.well-known/appspecific/com.chrome.devtools.json"'[39m,
+  error: Error: No route matches URL "/.well-known/appspecific/com.chrome.devtools.json"
+      at getInternalRouterError [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/router/router.ts:5550:5[90m)[39m
+      at Object.query [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/router/router.ts:3562:19[90m)[39m
+      at handleDocumentRequest [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/server-runtime/dist/server.js:313:35[90m)[39m
+      at requestHandler [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/server-runtime/dist/server.js:170:24[90m)[39m
+  [90m    at processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+      at nodeHandler [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/dev/dist/vite/plugin.js:859:27[90m)[39m
+      at [90m/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/dev/dist/vite/plugin.js:862:15
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:28:53 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/app/routes/_landing._index/components/DatePicker.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:28:53 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/app/routes/_landing._index/components/DatePicker.tsx[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:28:53 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/app/routes/_landing._index/components/DatePicker.tsx[22m [33m(x3)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:28:53 PM[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2mapp/routes/_landing._index/components/DatePicker.tsx[22m
+[2m1:28:53 PM[22m [31m[1m[vite][22m[39m [31m[2m(ssr)[22m[39m [31mError when evaluating SSR module virtual:remix/server-build: Failed to load url /app/routes/_landing._index/components/DatePicker.tsx (resolved id: /Users/teexiw/Work/ducky club/ducky-club/apps/liff/app/routes/_landing._index/components/DatePicker.tsx) in /Users/teexiw/Work/ducky club/ducky-club/apps/liff/app/routes/_landing._index/components/MainContent.tsx. Does the file exist?[39m
+      at loadAndTransform (file:///Users/teexiw/Work/ducky%20club/ducky-club/apps/liff/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:35725:17)
+      at fetchModule (file:///Users/teexiw/Work/ducky%20club/ducky-club/apps/liff/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:46829:16)
+      at handleInvoke (file:///Users/teexiw/Work/ducky%20club/ducky-club/apps/liff/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:38973:22)
+      at EventEmitter.listenerForInvokeHandler (file:///Users/teexiw/Work/ducky%20club/ducky-club/apps/liff/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:39046:19)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:28:53 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to load url /app/routes/_landing._index/components/DatePicker.tsx (resolved id: /Users/teexiw/Work/ducky club/ducky-club/apps/liff/app/routes/_landing._index/components/DatePicker.tsx) in /Users/teexiw/Work/ducky club/ducky-club/apps/liff/app/routes/_landing._index/components/MainContent.tsx. Does the file exist?[39m
+      at loadAndTransform (file:///Users/teexiw/Work/ducky%20club/ducky-club/apps/liff/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:35725:17)
+      at fetchModule (file:///Users/teexiw/Work/ducky%20club/ducky-club/apps/liff/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:46829:16)
+      at handleInvoke (file:///Users/teexiw/Work/ducky%20club/ducky-club/apps/liff/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:38973:22)
+      at EventEmitter.listenerForInvokeHandler (file:///Users/teexiw/Work/ducky%20club/ducky-club/apps/liff/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:39046:19)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:28:53 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m/Users/teexiw/Work/ducky club/ducky-club/apps/liff/app/routes/_landing._index/components/StyledButton.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:28:53 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m/Users/teexiw/Work/ducky club/ducky-club/apps/liff/app/routes/_landing._index/components/StyledButton.tsx[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:28:53 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mapp/routes/_landing._index/components/StyledButton.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:28:53 PM[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2mapp/routes/_landing._index/components/StyledButton.tsx[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:28:53 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to load url /app/routes/_landing._index/components/DatePicker.tsx (resolved id: /Users/teexiw/Work/ducky club/ducky-club/apps/liff/app/routes/_landing._index/components/DatePicker.tsx) in /Users/teexiw/Work/ducky club/ducky-club/apps/liff/app/routes/_landing._index/components/MainContent.tsx. Does the file exist?[39m
+      at loadAndTransform (file:///Users/teexiw/Work/ducky%20club/ducky-club/apps/liff/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:35725:17)
+      at fetchModule (file:///Users/teexiw/Work/ducky%20club/ducky-club/apps/liff/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:46829:16)
+      at handleInvoke (file:///Users/teexiw/Work/ducky%20club/ducky-club/apps/liff/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:38973:22)
+      at EventEmitter.listenerForInvokeHandler (file:///Users/teexiw/Work/ducky%20club/ducky-club/apps/liff/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:39046:19)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:28:53 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to load url /app/routes/_landing._index/components/DatePicker.tsx (resolved id: /Users/teexiw/Work/ducky club/ducky-club/apps/liff/app/routes/_landing._index/components/DatePicker.tsx) in /Users/teexiw/Work/ducky club/ducky-club/apps/liff/app/routes/_landing._index/components/MainContent.tsx. Does the file exist?[39m
+      at loadAndTransform (file:///Users/teexiw/Work/ducky%20club/ducky-club/apps/liff/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:35725:17)
+      at fetchModule (file:///Users/teexiw/Work/ducky%20club/ducky-club/apps/liff/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:46829:16)
+      at handleInvoke (file:///Users/teexiw/Work/ducky%20club/ducky-club/apps/liff/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:38973:22)
+      at EventEmitter.listenerForInvokeHandler (file:///Users/teexiw/Work/ducky%20club/ducky-club/apps/liff/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:39046:19) [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:28:54 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to load url /app/routes/_landing._index/components/DatePicker.tsx (resolved id: /Users/teexiw/Work/ducky club/ducky-club/apps/liff/app/routes/_landing._index/components/DatePicker.tsx) in /Users/teexiw/Work/ducky club/ducky-club/apps/liff/app/routes/_landing._index/components/MainContent.tsx. Does the file exist?[39m
+      at loadAndTransform (file:///Users/teexiw/Work/ducky%20club/ducky-club/apps/liff/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:35725:17)
+      at fetchModule (file:///Users/teexiw/Work/ducky%20club/ducky-club/apps/liff/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:46829:16)
+      at handleInvoke (file:///Users/teexiw/Work/ducky%20club/ducky-club/apps/liff/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:38973:22)
+      at EventEmitter.listenerForInvokeHandler (file:///Users/teexiw/Work/ducky%20club/ducky-club/apps/liff/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:39046:19) [33m(x3)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:28:54 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to load url /app/routes/_landing._index/components/DatePicker.tsx (resolved id: /Users/teexiw/Work/ducky club/ducky-club/apps/liff/app/routes/_landing._index/components/DatePicker.tsx) in /Users/teexiw/Work/ducky club/ducky-club/apps/liff/app/routes/_landing._index/components/MainContent.tsx. Does the file exist?[39m
+      at loadAndTransform (file:///Users/teexiw/Work/ducky%20club/ducky-club/apps/liff/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:35725:17)
+      at fetchModule (file:///Users/teexiw/Work/ducky%20club/ducky-club/apps/liff/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:46829:16)
+      at handleInvoke (file:///Users/teexiw/Work/ducky%20club/ducky-club/apps/liff/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:38973:22)
+      at EventEmitter.listenerForInvokeHandler (file:///Users/teexiw/Work/ducky%20club/ducky-club/apps/liff/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:39046:19) [33m(x4)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:29:24 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/app/routes/_landing._index/components/MainContent.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:29:24 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/app/routes/_landing._index/components/MainContent.tsx[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:29:24 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/app/routes/_landing._index/components/MainContent.tsx[22m [33m(x3)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:29:24 PM[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2mapp/routes/_landing._index/components/MainContent.tsx[22m
+Error: No route matches URL "/.well-known/appspecific/com.chrome.devtools.json"
+    at getInternalRouterError [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/router/router.ts:5550:5[90m)[39m
+    at Object.query [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/router/router.ts:3562:19[90m)[39m
+    at handleDocumentRequest [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/server-runtime/dist/server.js:313:35[90m)[39m
+    at requestHandler [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/server-runtime/dist/server.js:170:24[90m)[39m
+[90m    at processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+    at nodeHandler [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/dev/dist/vite/plugin.js:859:27[90m)[39m
+    at [90m/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/dev/dist/vite/plugin.js:862:15
+No routes matched location "/.well-known/appspecific/com.chrome.devtools.json" 
+ErrorResponseImpl {
+  status: [33m404[39m,
+  statusText: [32m'Not Found'[39m,
+  internal: [33mtrue[39m,
+  data: [32m'Error: No route matches URL "/.well-known/appspecific/com.chrome.devtools.json"'[39m,
+  error: Error: No route matches URL "/.well-known/appspecific/com.chrome.devtools.json"
+      at getInternalRouterError [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/router/router.ts:5550:5[90m)[39m
+      at Object.query [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/router/router.ts:3562:19[90m)[39m
+      at handleDocumentRequest [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/server-runtime/dist/server.js:313:35[90m)[39m
+      at requestHandler [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/server-runtime/dist/server.js:170:24[90m)[39m
+  [90m    at processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+      at nodeHandler [90m(/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/dev/dist/vite/plugin.js:859:27[90m)[39m
+      at [90m/Users/teexiw/Work/ducky club/ducky-club/apps/liff/[39mnode_modules/[4m@remix-run[24m/dev/dist/vite/plugin.js:862:15
+}
