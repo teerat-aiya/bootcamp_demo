@@ -1,0 +1,7 @@
+[0m[2m[35m$[0m [2m[1mbun run dev:ssl & remix vite:dev[0m
+[0m[2m[35m$[0m [2m[1mlocal-ssl-proxy --source 6001 --target 6000[0m
+[32mStarted proxy: https://localhost:6001 → http://localhost:6000[39m
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m6000[22m/[39m
+[2m  [32m➜[39m  [1mNetwork[22m[2m: use [22m[1m--host[22m[2m to expose[22m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+[0m[31merror[0m[2m:[0m script [1m"dev"[0m exited with code 130[0m

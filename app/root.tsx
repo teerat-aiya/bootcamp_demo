@@ -8,8 +8,16 @@ import {
 import type { LinksFunction } from "@remix-run/node";
 
 import "./tailwind.css";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import { LineLiffProvider } from "./contexts/LineLiffContext";
+import { Provider } from "react-redux";
+import { PersistGate } from "redux-persist/integration/react";
+import { store, persistor } from "./store";
+import PrelineScript from "./PrelineScript";
+import prelineCss from "@repo/preline/preline.css?url";
 
 export const links: LinksFunction = () => [
+  { rel: "stylesheet", href: prelineCss },
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
   {
     rel: "preconnect",
@@ -40,8 +48,35 @@ export function Layout({ children }: { children: React.ReactNode }) {
   );
 }
 
+const queryClient = new QueryClient({
+  defaultOptions: {
+    queries: {
+      staleTime: 5 * 60 * 1000, // 5 minutes
+      gcTime: 10 * 60 * 1000, // 10 minutes (formerly cacheTime)
+      refetchOnWindowFocus: false,
+      retry: 1,
+    },
+  },
+});
+
 export default function App() {
-  return <Outlet />;
+  const liffId = import.meta.env.VITE_LIFF_ID;
+
+  return (
+    <>
+    <PrelineScript />
+    <Provider store={store}>
+        <PersistGate loading={null} persistor={persistor}>
+          <QueryClientProvider client={queryClient}>
+            <LineLiffProvider liffId={liffId}>
+              <Outlet />
+            </LineLiffProvider>
+          </QueryClientProvider>
+        </PersistGate>
+      </Provider>
+    </>
+    
+  );
 }
 
 export function HydrateFallback() {

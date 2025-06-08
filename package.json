@@ -1,24 +1,30 @@
 {
-  "name": "bootcamp_demo",
+  "name": "liff",
   "private": true,
   "sideEffects": false,
   "type": "module",
   "scripts": {
     "build": "remix vite:build",
     "dev": "bun run dev:ssl & remix vite:dev",
-    "dev:ssl": "local-ssl-proxy --source 5502 --target 5501",
-    "ssl": "local-ssl-proxy --source 5502 --target 5501",
+    "dev:ssl": "local-ssl-proxy --source 6001 --target 6000",
+    "ssl": "local-ssl-proxy --source 6001 --target 6000",
     "lint": "eslint --ignore-path .gitignore --cache --cache-location ./node_modules/.cache/eslint .",
     "preview": "vite preview",
     "typecheck": "tsc"
   },
   "dependencies": {
     "@line/liff": "^2.26.1",
+    "@reduxjs/toolkit": "^2.8.2",
     "@remix-run/node": "^2.16.8",
     "@remix-run/react": "^2.16.8",
+    "@tanstack/react-query": "^5.80.6",
+    "@types/redux-persist": "^4.0.0",
     "isbot": "^4",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-datepicker": "^7.6.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^9.2.0",
+    "redux-persist": "^6.0.0"
   },
   "devDependencies": {
     "@remix-run/dev": "^2.16.8",

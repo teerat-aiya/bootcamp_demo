@@ -23,7 +23,7 @@ export default defineConfig({
     tsconfigPaths(),
   ],
   server: {
-    port: process.env.PORT ? Number(process.env.PORT) : 5501,
+    port: process.env.PORT ? Number(process.env.PORT) : 6000,
     // proxy: {
     //   "/api": "http://localhost:15501",
     // },

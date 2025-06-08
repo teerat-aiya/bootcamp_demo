@@ -1,0 +1,116 @@
+[debug] [2025-06-08T04:58:27.267Z] ----------------------------------------------------------------------
+[debug] [2025-06-08T04:58:27.272Z] Command:       /opt/homebrew/Cellar/node/24.1.0/bin/node /opt/homebrew/bin/firebase init hosting
+[debug] [2025-06-08T04:58:27.273Z] CLI Version:   14.6.0
+[debug] [2025-06-08T04:58:27.273Z] Platform:      darwin
+[debug] [2025-06-08T04:58:27.273Z] Node Version:  v24.1.0
+[debug] [2025-06-08T04:58:27.273Z] Time:          Sun Jun 08 2025 11:58:27 GMT+0700 (Indochina Time)
+[debug] [2025-06-08T04:58:27.273Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-06-08T04:58:27.273Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2025-06-08T04:58:27.294Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-06-08T04:58:27.294Z] > authorizing via signed-in user (teerat.pdm@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/teexiw/Work/ducky club/ducky-club/apps/liff
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-06-08T04:58:27.838Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2025-06-08T04:58:27.838Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2025-06-08T04:58:51.208Z] Checked if tokens are valid: false, expires at: 1744788141404
+[debug] [2025-06-08T04:58:51.208Z] Checked if tokens are valid: false, expires at: 1744788141404
+[debug] [2025-06-08T04:58:51.209Z] > refreshing access token with scopes: []
+[debug] [2025-06-08T04:58:51.210Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-06-08T04:58:51.210Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-06-08T04:58:51.382Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-06-08T04:58:51.382Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-06-08T04:58:51.391Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2025-06-08T04:58:51.391Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"ducky-space","name":"ducky-space"}
+[debug] [2025-06-08T04:58:52.611Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 200
+[debug] [2025-06-08T04:58:52.612Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"name":"operations/create_project.global.5086942415832191863"}
+[debug] [2025-06-08T04:58:52.613Z] Checked if tokens are valid: true, expires at: 1749362330383
+[debug] [2025-06-08T04:58:52.613Z] Checked if tokens are valid: true, expires at: 1749362330383
+[debug] [2025-06-08T04:58:52.614Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.5086942415832191863 [none]
+[debug] [2025-06-08T04:58:53.644Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.5086942415832191863 200
+[debug] [2025-06-08T04:58:53.645Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.5086942415832191863 {"name":"operations/create_project.global.5086942415832191863"}
+[debug] [2025-06-08T04:58:54.147Z] [Project Creation Poller] Retrying task index 0
+[debug] [2025-06-08T04:58:54.148Z] Checked if tokens are valid: true, expires at: 1749362330383
+[debug] [2025-06-08T04:58:54.148Z] Checked if tokens are valid: true, expires at: 1749362330383
+[debug] [2025-06-08T04:58:54.149Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.5086942415832191863 [none]
+[debug] [2025-06-08T04:58:54.418Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.5086942415832191863 200
+[debug] [2025-06-08T04:58:54.419Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.5086942415832191863 {"name":"operations/create_project.global.5086942415832191863","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","gettable":true,"ready":true},"done":true,"response":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.Project","projectNumber":"379202627067","projectId":"ducky-space","lifecycleState":"ACTIVE","name":"ducky-space","createTime":"2025-06-08T04:58:53.250806Z"}}
+[debug] [2025-06-08T04:58:54.420Z] Checked if tokens are valid: true, expires at: 1749362330383
+[debug] [2025-06-08T04:58:54.420Z] Checked if tokens are valid: true, expires at: 1749362330383
+[debug] [2025-06-08T04:58:54.421Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/ducky-space:addFirebase [none]
+[debug] [2025-06-08T04:58:58.159Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/ducky-space:addFirebase 200
+[debug] [2025-06-08T04:58:58.159Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/ducky-space:addFirebase {"name":"operations/workflows/Y2Q4YjlhMDAtOTk5MS00MjlkLWI5NTItNjgzNmQ2NmU2MjM5"}
+[debug] [2025-06-08T04:58:58.160Z] Checked if tokens are valid: true, expires at: 1749362330383
+[debug] [2025-06-08T04:58:58.160Z] Checked if tokens are valid: true, expires at: 1749362330383
+[debug] [2025-06-08T04:58:58.160Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/Y2Q4YjlhMDAtOTk5MS00MjlkLWI5NTItNjgzNmQ2NmU2MjM5 [none]
+[debug] [2025-06-08T04:58:59.350Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/Y2Q4YjlhMDAtOTk5MS00MjlkLWI5NTItNjgzNmQ2NmU2MjM5 200
+[debug] [2025-06-08T04:58:59.350Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/Y2Q4YjlhMDAtOTk5MS00MjlkLWI5NTItNjgzNmQ2NmU2MjM5 {"name":"operations/workflows/Y2Q4YjlhMDAtOTk5MS00MjlkLWI5NTItNjgzNmQ2NmU2MjM5"}
+[debug] [2025-06-08T04:58:59.850Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2025-06-08T04:58:59.851Z] Checked if tokens are valid: true, expires at: 1749362330383
+[debug] [2025-06-08T04:58:59.851Z] Checked if tokens are valid: true, expires at: 1749362330383
+[debug] [2025-06-08T04:58:59.851Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/Y2Q4YjlhMDAtOTk5MS00MjlkLWI5NTItNjgzNmQ2NmU2MjM5 [none]
+[debug] [2025-06-08T04:59:00.916Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/Y2Q4YjlhMDAtOTk5MS00MjlkLWI5NTItNjgzNmQ2NmU2MjM5 200
+[debug] [2025-06-08T04:59:00.916Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/Y2Q4YjlhMDAtOTk5MS00MjlkLWI5NTItNjgzNmQ2NmU2MjM5 {"name":"operations/workflows/Y2Q4YjlhMDAtOTk5MS00MjlkLWI5NTItNjgzNmQ2NmU2MjM5"}
+[debug] [2025-06-08T04:59:01.918Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2025-06-08T04:59:01.919Z] Checked if tokens are valid: true, expires at: 1749362330383
+[debug] [2025-06-08T04:59:01.919Z] Checked if tokens are valid: true, expires at: 1749362330383
+[debug] [2025-06-08T04:59:01.919Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/Y2Q4YjlhMDAtOTk5MS00MjlkLWI5NTItNjgzNmQ2NmU2MjM5 [none]
+[debug] [2025-06-08T04:59:03.088Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/Y2Q4YjlhMDAtOTk5MS00MjlkLWI5NTItNjgzNmQ2NmU2MjM5 200
+[debug] [2025-06-08T04:59:03.089Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/Y2Q4YjlhMDAtOTk5MS00MjlkLWI5NTItNjgzNmQ2NmU2MjM5 {"name":"operations/workflows/Y2Q4YjlhMDAtOTk5MS00MjlkLWI5NTItNjgzNmQ2NmU2MjM5"}
+[debug] [2025-06-08T04:59:05.091Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2025-06-08T04:59:05.095Z] Checked if tokens are valid: true, expires at: 1749362330383
+[debug] [2025-06-08T04:59:05.095Z] Checked if tokens are valid: true, expires at: 1749362330383
+[debug] [2025-06-08T04:59:05.096Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/Y2Q4YjlhMDAtOTk5MS00MjlkLWI5NTItNjgzNmQ2NmU2MjM5 [none]
+[debug] [2025-06-08T04:59:05.914Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/Y2Q4YjlhMDAtOTk5MS00MjlkLWI5NTItNjgzNmQ2NmU2MjM5 200
+[debug] [2025-06-08T04:59:05.914Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/Y2Q4YjlhMDAtOTk5MS00MjlkLWI5NTItNjgzNmQ2NmU2MjM5 {"name":"operations/workflows/Y2Q4YjlhMDAtOTk5MS00MjlkLWI5NTItNjgzNmQ2NmU2MjM5"}
+[debug] [2025-06-08T04:59:09.915Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2025-06-08T04:59:09.917Z] Checked if tokens are valid: true, expires at: 1749362330383
+[debug] [2025-06-08T04:59:09.917Z] Checked if tokens are valid: true, expires at: 1749362330383
+[debug] [2025-06-08T04:59:09.917Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/Y2Q4YjlhMDAtOTk5MS00MjlkLWI5NTItNjgzNmQ2NmU2MjM5 [none]
+[debug] [2025-06-08T04:59:10.873Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/Y2Q4YjlhMDAtOTk5MS00MjlkLWI5NTItNjgzNmQ2NmU2MjM5 200
+[debug] [2025-06-08T04:59:10.873Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/Y2Q4YjlhMDAtOTk5MS00MjlkLWI5NTItNjgzNmQ2NmU2MjM5 {"name":"operations/workflows/Y2Q4YjlhMDAtOTk5MS00MjlkLWI5NTItNjgzNmQ2NmU2MjM5"}
+[debug] [2025-06-08T04:59:18.878Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2025-06-08T04:59:18.880Z] Checked if tokens are valid: true, expires at: 1749362330383
+[debug] [2025-06-08T04:59:18.880Z] Checked if tokens are valid: true, expires at: 1749362330383
+[debug] [2025-06-08T04:59:18.880Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/Y2Q4YjlhMDAtOTk5MS00MjlkLWI5NTItNjgzNmQ2NmU2MjM5 [none]
+[debug] [2025-06-08T04:59:19.953Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/Y2Q4YjlhMDAtOTk5MS00MjlkLWI5NTItNjgzNmQ2NmU2MjM5 200
+[debug] [2025-06-08T04:59:19.953Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/Y2Q4YjlhMDAtOTk5MS00MjlkLWI5NTItNjgzNmQ2NmU2MjM5 {"name":"operations/workflows/Y2Q4YjlhMDAtOTk5MS00MjlkLWI5NTItNjgzNmQ2NmU2MjM5","done":true,"response":{"@type":"type.googleapis.com/google.firebase.service.v1beta1.FirebaseProject","projectId":"ducky-space","projectNumber":"379202627067","displayName":"ducky-space","name":"projects/ducky-space","resources":{"hostingSite":"ducky-space"}}}
+[info] 
+[info] 🎉🎉🎉 Your Firebase project is ready! 🎉🎉🎉
+[info] 
+[info] Project information:
+[info]    - Project ID: ducky-space
+[info]    - Project Name: ducky-space
+[info] 
+[info] Firebase console is available at
+[info] https://console.firebase.google.com/project/ducky-space/overview
+[info] i  Using project ducky-space (ducky-space) 
+[info] 
+=== Hosting Setup
+[debug] [2025-06-08T04:59:19.983Z] Checked if tokens are valid: true, expires at: 1749362330383
+[debug] [2025-06-08T04:59:19.983Z] Checked if tokens are valid: true, expires at: 1749362330383
+[debug] [2025-06-08T04:59:19.983Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/ducky-space [none]
+[debug] [2025-06-08T04:59:20.864Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/ducky-space 200
+[debug] [2025-06-08T04:59:20.864Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/ducky-space {"projectId":"ducky-space","projectNumber":"379202627067","displayName":"ducky-space","name":"projects/ducky-space","resources":{"hostingSite":"ducky-space"},"state":"ACTIVE","etag":"1_73a6398c-109a-43b4-88d5-e9d7f6699d74"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
